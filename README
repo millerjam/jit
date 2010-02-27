@@ -7,3 +7,14 @@ This is the Dev project, users should download the project from http://thejit.or
 
 The blog's at http://blog.thejit.org
 
+To run tests, install python 2.6+
+prompt>python server.py
+
+a web server will run on port 8080
+goto http://localhost:8080/testcase/[test class]/1/
+where test class = "RGraph","Sunburst", etc.
+
+To build source
+
+python build.py > jit.js
+
